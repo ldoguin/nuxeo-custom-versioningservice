@@ -1,0 +1,7 @@
+<component name="org.nuxeo.sample.versioning.contrib">
+
+<extension target="org.nuxeo.ecm.core.versioning.VersioningService" point="versioningService">
+    <service class="org.nuxeo.sample.versioning.CustomVersioningService" />
+</extension>
+
+</component>
